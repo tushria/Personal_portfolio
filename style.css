@@ -7,6 +7,11 @@ body{
     background: #080808;
     color: #fff;
     font-family: 'Quicksand', sans-serif; 
+    cursor:pointer;
+}
+#main-content::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
 }
 
 /* splash screen */
@@ -30,6 +35,13 @@ body{
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     font-size: 40px;
+}
+.custcursor{
+    width: 20px;
+    height: 20px;background-color: antiquewhite;
+    position: fixed;
+    border-radius: 50%;
+
 }
 
 .logo{
@@ -80,7 +92,7 @@ body{
     overflow: auto;
   }
 #header{
-background-image: url(images/final_img.jpeg);  
+/* background-image: url(images/final_img.jpeg);   */
 width: 100%;
 height: 100vh; 
 background-position: center;
@@ -88,14 +100,35 @@ background-size: cover;
 
 }
 
+/* navigation Bar */
+
 .navbar{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .menu li{  
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.navbar .menu li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 13px;
 }
 .navbar .max-width {
     display: flex;
-    padding: 30px;
+    padding: 26px;
     align-items: center;
     justify-content: space-between;
 }
@@ -163,31 +196,27 @@ background-size: cover;
 }
 
 
-/* navigation Bar */
-
-.navbar .menu li{  
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-.navbar .menu li a{
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-size: 13px;
-}
-
 .left {
-    width: 80%;
-    height: 35%;
-    padding: 10%;
+    top: 10vw;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 2vw;
+    text-align: center;
+}
+.upper-txt{
+    margin-top: 4vw;
 }
 .text-1 {
-    font-size: 20px;
-    letter-spacing: 7px;
+    font-size: 3vw;
     padding-bottom: 15px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} 
+
 .text-2{
     font-size: 80px;
     font-weight: 700;
@@ -195,12 +224,13 @@ background-size: cover;
     font-style: normal;      
 }
 .text-3{
-    font-size: 20px;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 10vw;
 }
-.typing{
-    color:#fff704;
-    font-size: 30px;
-}
+
 /* For screens 800px and below */
 @media (max-width: 800px) {
     .menu {

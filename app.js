@@ -28,6 +28,22 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }, 1000)
       }, 1000)
     }, 1909) 
+
+
+    var main_box = document.querySelector("#main-content");
+    var cursor = document.querySelector(".custcursor");
+    
+    main_box.addEventListener("mousemove", function(points){
+      gsap.to(cursor,{
+        x:points.x,
+        y:points.y,
+        duration:1,
+        ease: "back.out(1.2)"
+      })
+    })
+    
+
+
   });
 
 

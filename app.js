@@ -45,8 +45,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
   });
-
-
+  
 // applying animation to logo
 
 var tl = gsap.timeline()
@@ -61,7 +60,7 @@ tl.from(".sakshi_logo",{
 tl.from(".menu li",{
   y:-30,
   opacity:0,
-  delay:0.5,
+  delay:0.1,
   duration:1,
   stagger:0.3
 
@@ -112,22 +111,95 @@ const navbar = document.querySelector('.navbar');
     }
   });
 
+const home = document.querySelector(".upper-txt")
+home.addEventListener("mouseenter",function(){
+  home.addEventListener("mousemove",function(e){
+    
+    var moving_val = home.getAttribute("data-value"); 
+    var x=(e.clientX*moving_val)/50;
+    var y=(e.clientY*moving_val)/50;
+    gsap.to(home,{
+      x:x,
+      y:y,
+      duration:0.5,
+      ease:"power3.out"
+    })
+    // home.style.transform="translateX(" + x + "px) translateY(" + y + "px)"
+})
+})
 
+// resting the position
+home.addEventListener("mouseleave", function(){
+  gsap.to(home,{
+    x:0,
+    y:0,
+    duration:0.5,
+    ease:"power3.out"
+  })
+})
 
+// smooth scrolling effect---------------->
+// function init(){
+//   gsap.registerPlugin(ScrollTrigger);
+// const locoScroll = new LocomotiveScroll({
+//   el: document.querySelector("#main-content"),
+//   smooth: true
+// });
+// locoScroll.on("scroll", ScrollTrigger.update);
+// ScrollTrigger.scrollerProxy("#main-content", {
+//   scrollTop(value) {
+//     return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
+//   }, 
+//   getBoundingClientRect() {
+//     return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+//   },
+//   pinType: document.querySelector("#main-content").style.transform ? "transform" : "fixed"
+// });
+// ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+// ScrollTrigger.refresh();
+// }
+// init()
 
+// var tl2 = gsap.timeline({
+//   scrollTrigger:{
+//       trigger:".left .txtbx-btn",
+//       scroller:"#main-content",
+//       start:"top -120%",
+//       end:"top -130%",
+//       scrub:3
+//   },
+// })
 
+// tl2.to(".about",{
+//   backgroundColor:"white"
+// })
+gsap.to(".about", {
+  scrollTrigger: {
+    trigger: ".left .txtbx-btn",
+    scroller: "#main-content",
+    start: "top 40%",
+    end: "top 90%",     
+    scrub: 2,
+    
+  },
+  backgroundColor: "  rgb(237, 237, 237)",
+  ease:"expoScale",
+  delay:10
+});
 
-
-
-
-
-
-
-
-
-
-
-
+gsap.to(".text-3",{
+  scrollTrigger:{
+    trigger:".lower-txt",
+    scroller:"#main-content",
+    start:"top 80%",
+    end:"top 90%",
+    scrub:3
+  },
+  fontWeight:700,
+  backgroundPosition: "200% center", 
+  textDecoration: "underline",
+  ease:"back.out"
+})
 
 
 

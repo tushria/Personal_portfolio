@@ -193,7 +193,6 @@ gsap.to(".text-3",{
     scroller:"#main-content",
     start:"top 80%",
     end:"top 90%",
-    markers:true,
     scrub:3
   },
   fontWeight:700,

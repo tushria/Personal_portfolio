@@ -1025,6 +1025,8 @@ form input, textarea {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 69vh;
+    padding-bottom: 10vh;
 }
 .form_heading {
     display: flex;

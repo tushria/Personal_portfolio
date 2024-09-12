@@ -92,6 +92,9 @@ body{
         font-size: 2rem;
         text-align: center;
     }
+    .custcursor {
+        display: none;
+    }
 }
 /*=======================================================
         main content body starts from here
@@ -284,6 +287,7 @@ background-size: cover;
     .text-3{
         line-height: 2rem;
     }
+    
 }
 /* For screens 800px and below */
 @media (max-width: 800px) {
@@ -312,7 +316,7 @@ background-size: cover;
         font-size: 14px;
     }
     .upper-txt {
-        margin-top: 11%;
+        margin-top: 30%;
         margin-bottom: 7%;
     }
 }
@@ -345,7 +349,7 @@ background-size: cover;
         padding: 5%;
     }
     .upper-txt{
-        margin-top: 15%;
+        margin-top: 65%;
     }
     .left .text-1{
         font-size: 1.4rem; 
@@ -361,6 +365,9 @@ background-size: cover;
         color: #fff704;
         font-size: 15px;
         
+    }
+    .custcursor {
+        display: none;
     }
 }
 @media (max-width: 425px) {
@@ -401,6 +408,9 @@ background-size: cover;
         font-size: 1rem;
         margin: 0px;
         padding: 0px;
+    }
+    .custcursor {
+        display: none;
     }
 }
 
@@ -660,6 +670,7 @@ background-size: cover;
     .about {
         flex-direction: column;
         text-align: center;
+        height: 100vh;
     }
     .am {
         font-size: 3.5em;
@@ -1040,7 +1051,7 @@ form input, textarea {
 }
 .form{
     width: 100%;
-
+    margin-top: 2%;
 }
 .contact_me{
     display: flex;

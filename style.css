@@ -125,7 +125,7 @@ background-size: cover;
     box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.267);
     position: fixed;
     width: 100%;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .navbar .menu li{  

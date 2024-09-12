@@ -393,8 +393,8 @@ background-size: cover;
     }
 }
 
-/* For screens 320px and below */
-@media (max-width: 320px) {
+/* For screens 380px and below */
+@media (max-width: 380px) {
     .navbar {
         padding: 5px;
     }
@@ -420,11 +420,11 @@ background-size: cover;
     }
     .left {
         width: 100%;
-        height: 110vh;
+        height: 95vh;
         padding: 5%;
     }
     .left .text-1 h1{
-        font-size: 2rem;
+        font-size: 2.7rem;
         width: 100%;
     }
     .text-3 {
@@ -434,10 +434,12 @@ background-size: cover;
         line-height: 1.8rem;
     }
     .upper-txt {
-        margin-top: 35%;
+        margin-top: 70%;
         margin-bottom: 12%;
     }
-   
+    .txtbx-btn{
+        margin-top: 10%;
+    }
 }   
 
 /* Responsive Toggle Button */
@@ -516,7 +518,7 @@ background-size: cover;
     }
   }
   
-  @media (max-width: 320px) {
+  @media (max-width: 380px) {
     .navbar {
         padding: 5px;
         height: 15vh;
@@ -680,13 +682,13 @@ background-size: cover;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:380px) {
     .about_left {
         height: 30vh;
         margin-top: 15%;
     }
     .about {
-        height: 230vh;
+        height: 140vh; 
         display: flex;
         justify-content: flex-start;
 
@@ -819,12 +821,12 @@ background-size: cover;
     margin-top: 5%;
 }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:380px) {
     .title-pjt {
         padding-top: 4rem;
     }
     .project{
-        height: 490vh;
+        height: 380vh; 
     }
     .pjt-dtl {
         display: flex;
@@ -843,7 +845,7 @@ background-size: cover;
     }
     .pjt-dtl-about {
         width: 80%;
-        height: 60vh;
+        height: 37vh;
         margin-top: 0%;
     }
     .pjt-btn{
@@ -996,7 +998,7 @@ form input, textarea {
         width: 63%;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 380px) {
 .left_side {
     line-height: 2;
     height: 10vh;
@@ -1004,7 +1006,7 @@ form input, textarea {
     width: 100%;
 }
 .first_text h1{
-    font-size: 30px;
+    font-size: 2rem;
 }
 .second_text {
     padding-left: 10px;

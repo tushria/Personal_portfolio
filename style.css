@@ -81,7 +81,18 @@ body{
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
-
+@media (max-width: 380px) {
+    .fade{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+    }
+    #splash-text{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
 /*=======================================================
         main content body starts from here
 =========================================================*/
@@ -426,7 +437,7 @@ background-size: cover;
         padding: 5%;
     }
     .left .text-1 h1{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         width: 100%;
     }
     .text-3 {
@@ -451,26 +462,14 @@ background-size: cover;
     
 }   
 
-/* Responsive Toggle Button */
 .navbar .toggle-button {
     display: none;
 }
 
-@media (max-width: 800px) {
-    .navbar .toggle-button {
-        display: block;
-        cursor: pointer;
-        background-color: #33333337;
-        color: #fff;
-        padding: 10px;
-        border: none;
-    }
-}/* Hamburger Menu Button Styles */
-
 .navbar .toggle-button {
     display: none;
     cursor: pointer;
-    background-color: #33333338;
+    background-color: #333333;
     color: #fff;
     padding: 10px;
     border: none;
@@ -488,7 +487,14 @@ background-size: cover;
       width: 200px;
       flex-direction: column;
     }
-  
+    .navbar .toggle-button {
+        display: block;
+        cursor: pointer;
+        background-color: #33333337;
+        color: #fff;
+        padding: 10px;
+        border: none;
+    }
     .navbar .menu.active {
       display: flex;
     }
@@ -553,24 +559,22 @@ background-size: cover;
   
     .navbar .menu {
         width: 31%;
-        height: 24%;
+        height: 17vh;
         padding-left: 5%;
     }
     .navbar .menu li {
       margin: 5px 0;
     }
+    .navbar.open {
+      .menu {
+          display: block;
+          top: 80%;        
+          padding-left: 2%;
+          width: 31vw;
+      }
+  }
   }
   
-  /* Open Navigation Bar Styles */
-  
-  .navbar.open {
-    .menu {
-        display: block;
-        top: 16%;        
-        padding-left: 2%;
-        width: 16%;
-    }
-}
 /*=======================================================
                    about section starts
 =========================================================*/
@@ -697,7 +701,7 @@ background-size: cover;
         margin-top: 15%;
     }
     .about {
-        height: 140vh; 
+        height: 150vh; 
         display: flex;
         justify-content: flex-start;
 
@@ -840,7 +844,7 @@ background-size: cover;
         letter-spacing: 5px;
     }
     .project{
-        height: 380vh; 
+        height: 200vh;  
     }
     .pjt-dtl {
         display: flex;
@@ -937,7 +941,7 @@ form input, textarea {
 }
 
 .form_btn button{
-    background-color:transparent;
+    background-color:rgb(86, 85, 85);
     margin-top: 20px;
     padding: 20px 40px;
     position:absolute;
@@ -1019,33 +1023,38 @@ form input, textarea {
     padding-top: 4vw;
     width: 100%;
 }
+.first_text{
+    padding-left: 0px;
+}
 .first_text h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .second_text {
     padding-left: 10px;
 }
 .second_text h1{
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 .third_text h1{
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 .form{
-    width: 90%;
+    width: 100%;
 
 }
 .contact_me{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 69vh;
+    height: 77vh;
     padding-bottom: 10vh;
 }
 .form_heading {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
+    gap: 2%;
 }
 .form_btn{
     width: 90%;

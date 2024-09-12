@@ -14,6 +14,7 @@ Build a website in 24 hours to showcase the following:
 - HTML5
 - JavaScript
 - CSS3
+- GSAP
 - Git
 
 # My Work

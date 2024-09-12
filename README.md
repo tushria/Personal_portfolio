@@ -18,10 +18,11 @@ Build a website in 24 hours to showcase the following:
 
 # My Work
 ### Splash screen
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/d4ebd649-71fc-49a6-b67c-ac1a1cd4f05a">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/8dc94908-fe5b-4459-b45d-3a2cf362a589">
 
 ### About page
-<img width="934" alt="image" src="https://github.com/user-attachments/assets/c0b44c31-e54d-4ad9-a24a-4577f05fbc18">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/6e01fa48-e859-4a6e-84b5-e7873751a387">
 
 ### Contact Page
-<img width="502" alt="image" src="https://github.com/user-attachments/assets/37ca99ce-6377-42bd-9772-5fe8b9dc0471">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/dc6a4353-8a2b-4de7-8dbe-226693ea5fc8">
+

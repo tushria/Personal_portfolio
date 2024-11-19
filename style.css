@@ -120,12 +120,8 @@ background-size: cover;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.14);
-    box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.267);
     position: fixed;
     width: 100%;
-    /* z-index: 100; */
 }
 
 .navbar .menu li{  
@@ -580,7 +576,7 @@ background-size: cover;
           display: block;
           top: 80%;        
           padding-left: 2%;
-          width: 31vw;
+          width: 61vw;
       }
   }
   }
@@ -608,7 +604,6 @@ background-size: cover;
     font-weight: 900;
     font-size: 4rem;
     border-bottom: 1px solid white;
-    letter-spacing: 9px;
     margin-left: 4%;
 }
 
@@ -753,18 +748,17 @@ background-size: cover;
     font-weight: 900;
     font-size: 2rem;
     border-bottom: 1px solid white;
-    letter-spacing: 9px;
     margin-left: 4%;
 }
 
 .title-pjt{
-    padding-top: 7rem;
+    padding-top: 4rem;
     
 }
 
 .pjt-dtl{
     min-height: 70vh;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     display: flex;
     gap: 7%;
 }
@@ -782,6 +776,9 @@ background-size: cover;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+#tech-img{
+    object-fit:contain;
 }
 .pjt-dtl-about{
     width: 35%;
@@ -887,6 +884,56 @@ background-size: cover;
 /*=======================================================
                     contact us form
 =========================================================*/
+/* .blank-cnt{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(160, 133, 95);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    overflow: hidden; 
+}
+.box1 {
+    transform: rotate(9deg);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    background-color: white;
+}
+.txt-box1{
+    background-color: #b05a5a;
+    display: inline-block; 
+    padding: 0 20px;
+    font-size: 6rem; 
+    font-weight: 900;
+    white-space: nowrap;
+    color: black;
+    display: flex;
+}
+
+.box2 {
+    position: absolute;
+    transform: translateX(-20vw) rotate(-19deg);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.txt-box2{
+    background-color: #b05a5a;
+    display: inline-block; 
+    padding: 0 20px;
+    font-size: 5rem; 
+    font-weight: 900;
+    white-space: nowrap;
+    color: black;
+    display: flex;
+} */
+
 .contact_me {
     width: 100%;
     height: 150vh;

@@ -3,6 +3,7 @@ Portfolio website
 
 This was a website built to showcase my technical skills, web design skills.
 
+##Link to my Portfolio:-https://tushria.github.io/Personal_portfolio/
 ## Project timeline and technologies used
 Build a website in 24 hours to showcase the following:
 

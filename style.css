@@ -634,12 +634,10 @@ background-size: cover;
 }
 .about_para{
     display: flex;
-    /* justify-content:space-between; */
-    gap: 5%;
     flex-direction: row;
 }
 .body_of_skills{
-    width: 40%;
+    width: 30%;
     margin-top: 2%;
 }
 

@@ -749,13 +749,13 @@ background-size: cover;
     margin-left: 4%;
 }
 
-.title-pjt{
+/* .title-pjt{
     padding-top: 4rem;
     
-}
+} */
 
 .pjt-dtl{
-    min-height: 70vh;
+    min-height: 80vh;
     /* margin-top: 10%; */
     display: flex;
     gap: 7%;

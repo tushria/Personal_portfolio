@@ -190,7 +190,7 @@ gsap.to(".about", {
     end: "top 90%",     
     scrub: 2, // Smooth scroll scrubbing
   },
-  backgroundColor: "rgb(237, 237, 237)", // Background color change on scroll
+  backgroundColor: "rgb(227, 227, 227)", // Background color change on scroll
   ease: "expoScale",
   delay: 10
 });

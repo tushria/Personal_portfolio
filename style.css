@@ -657,6 +657,7 @@ background-size: cover;
 }
 .body_of_skills h1{
     margin-bottom: 10%;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 850px) {
@@ -850,13 +851,14 @@ background-size: cover;
         letter-spacing: 5px;
     }
     .project{
-        height: 280vh;  
+        height: 270vh;  
     }
     .pjt-dtl {
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #added{
         margin-top: 18vh;
@@ -868,7 +870,7 @@ background-size: cover;
     }
     .pr1 {
         width: 90%;
-        height: 40vh;
+        height: 30vh;
         margin: 0px;
     }
     .pjt-dtl-about {

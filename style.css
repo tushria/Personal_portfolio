@@ -858,6 +858,9 @@ background-size: cover;
         align-items: center;
         justify-content: center;
     }
+    #added{
+        margin-top: 18vh;
+    }
     .pj1img {
         /* height: 33vh; */
         height: 200px;
@@ -1098,6 +1101,7 @@ form input, textarea {
 .form{
     width: 90%;
     margin-top: 2%;
+
 }
 .contact_me{
     display: flex;

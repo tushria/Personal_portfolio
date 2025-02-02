@@ -842,7 +842,7 @@ background-size: cover;
 }
 @media screen and (max-width:380px) {
     .title-pjt {
-        padding-top: 4rem;
+        padding-top: 1rem;
     }
     .title-pjt h1 {
         margin-top: 4%;
@@ -850,7 +850,7 @@ background-size: cover;
         letter-spacing: 5px;
     }
     .project{
-        height: 200vh;  
+        height: 280vh;  
     }
     .pjt-dtl {
         display: flex;
@@ -864,7 +864,7 @@ background-size: cover;
     }
     .pr1 {
         width: 90%;
-        height: 46vh;
+        height: 40vh;
         margin: 0px;
     }
     .pjt-dtl-about {

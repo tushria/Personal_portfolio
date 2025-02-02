@@ -656,7 +656,7 @@ background-size: cover;
     font-weight: 200;
 }
 .body_of_skills h1{
-    margin-bottom: 2%;
+    margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 850px) {
@@ -859,7 +859,8 @@ background-size: cover;
         justify-content: center;
     }
     .pj1img {
-        height: 33vh;
+        /* height: 33vh; */
+        height: 200px;
         margin-top: 10%;
     }
     .pr1 {
@@ -1095,7 +1096,7 @@ form input, textarea {
     font-size: 2.5rem;
 }
 .form{
-    width: 100%;
+    width: 90%;
     margin-top: 2%;
 }
 .contact_me{

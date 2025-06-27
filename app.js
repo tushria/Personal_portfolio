@@ -182,7 +182,7 @@ home.addEventListener("mouseleave", function () {
 // init();
 
 // Animation for '.about' section with scroll effect
-gsap.to(".about", {
+gsap.to("#abt", {
   scrollTrigger: {
     trigger: ".left .txtbx-btn",
     scroller: "#main-content",

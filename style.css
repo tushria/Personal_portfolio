@@ -460,16 +460,6 @@ background-size: cover;
         margin-left: 0px;
         line-height: 1.8rem;
     }
-    .txtbx-btn {
-        margin-top: 15%;
-        padding: 4vw 15.5vw;
-        font-size: 1.5rem;
-    }
-    .txtbx-btn{
-        margin-top: 10%;
-        font-size: 1.5rem;
-        padding: 4vw  17.5vw;
-    }
     .upper-txt {
         margin-top: 50%;
     }
@@ -1272,4 +1262,12 @@ h1{
 }
 .proj-detail{
     padding-top: 3%;
+}
+
+.linnks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
 }
